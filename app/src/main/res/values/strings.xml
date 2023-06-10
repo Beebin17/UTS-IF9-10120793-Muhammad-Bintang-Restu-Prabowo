@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bintang Restu App</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bintang Restu App</string>
+    <string name="nav_header_subtitle">No. Telp : 082294809560</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_walkthrough">WalkthroughActivity</string>
+    <string name="tab_text_1">Profil</string>
+    <string name="tab_text_2">Deskripsi</string>
+    <string name="tab_text_3">Tentang App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_description">Yo, namaku Bintang! Aku ngefans banget sama basket. Aku suka lihat semangat tim dan trik-trik seru dalam permainan ini. Basket buat aku adalah cara buat aku jadi lebih baik dan sehat. Aku seneng banget bisa ngobrol dan berbagi cerita tentang basket sama orang-orang yang juga suka. Jadi, kalo ada yang perlu bantuan atau mau tukeran cerita tentang basket, jangan sungkan buat ngajak aku ngobrol, ya!</string>
+</resources>

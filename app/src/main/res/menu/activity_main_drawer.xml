@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Home">
+        <menu>
+
+            <item android:id="@+id/nav_item_profile1"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Profile" />
+            <item android:id="@+id/nav_item_interest"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Interest" />
+
+        </menu>
+    </item>
+
+    <item android:title="Daily Activity">
+        <menu>
+
+            <item android:id="@+id/nav_item_daily"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Daily Activity" />
+            <item android:id="@+id/nav_item_friends"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Friends List" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_item_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_item_favorite"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music Favorite and Video" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <item android:id="@+id/nav_item_profile2"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Profile" />
+            <item android:id="@+id/nav_item_contact"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Contact" />
+            <item android:id="@+id/nav_item_findme"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Find Me" />
+            <item android:id="@+id/nav_item_about"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="About" />
+
+        </menu>
+    </item>
+</menu>

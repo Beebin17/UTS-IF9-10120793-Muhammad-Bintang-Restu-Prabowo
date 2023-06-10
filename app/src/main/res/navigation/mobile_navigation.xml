@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_item_profile1">
+
+    <fragment
+        android:id="@+id/nav_item_profile1"
+        android:name="com.a01062023.bintangrestuapp.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_item_interest"
+        android:name="com.a01062023.bintangrestuapp.InterestFragment"
+        android:label="Interest"
+        tools:layout="@layout/fragment_interest" />
+
+    <fragment
+        android:id="@+id/nav_item_daily"
+        android:name="com.a01062023.bintangrestuapp.DailyActivityFragment"
+        android:label="Daily Activity"
+        tools:layout="@layout/fragment_daily_activity" />
+    <fragment
+        android:id="@+id/nav_item_friends"
+        android:name="com.a01062023.bintangrestuapp.FriendsListFragment"
+        android:label="Friends List"
+        tools:layout="@layout/fragment_friends_list" />
+    <fragment
+        android:id="@+id/nav_item_gallery"
+        android:name="com.a01062023.bintangrestuapp.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery2" />
+    <fragment
+        android:id="@+id/nav_item_favorite"
+        android:name="com.a01062023.bintangrestuapp.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/nav_item_profile2"
+        android:name="com.a01062023.bintangrestuapp.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_item_contact"
+        android:name="com.a01062023.bintangrestuapp.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_item_findme"
+        android:name="com.a01062023.bintangrestuapp.FindMeFragment"
+        android:label="Find Me"
+        tools:layout="@layout/fragment_find_me" />
+    <fragment
+        android:id="@+id/nav_item_about"
+        android:name="com.a01062023.bintangrestuapp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>

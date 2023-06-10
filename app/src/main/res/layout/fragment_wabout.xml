@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WAboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="ABOUT THIS APP"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20sp"
+            android:paddingRight="30sp"
+            android:text="Aplikasi ini berisi tentang sesuatu hal yang menjelaskan tentang Muhammad Bintang Restu Prabowo yang dimulai dari aktivitas sehari-hari, kesukaan, dan sebagainya. "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20sp"
+            android:paddingTop="5sp"
+            android:paddingRight="30sp"
+            android:text="Aplikasi ini dibuat dengan tujuan agar pengguna aplikasi tersebut dapat mengenali si pembuat aplikasi lebih mudah."
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</FrameLayout>
